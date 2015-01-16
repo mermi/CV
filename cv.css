@@ -1,0 +1,152 @@
+body {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  font-family: "Open Sans",X-LocaleSpecific,sans-serif;
+  color: #000;
+  margin:0px;
+  background-image: url("bg3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#masterHead{
+  width: 100%;
+  padding: 0px;
+}
+#masterHead h1{
+    color:#0B0A0A;
+    text-align:center;
+}
+#masterHead nav {
+  float: right;
+  width: 800px;
+  margin: 0px auto;
+  padding: 0px;
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  font-family: "Open Sans",X-LocaleSpecific,sans-serif;
+}
+nav ul{
+  padding:0;
+  magin:0;
+  liste-style-type:none;
+  height:20%;
+}
+nav li{
+  display:inline-block;
+  margin:0px;
+  padding:0px;
+  text-align:center;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  margin-right:1px;
+}
+nav li :hover{
+  background: #900 ;
+  text-decoration: underline ;
+}
+nav li a{
+  padding: 4px 20px ;
+  background: #A3A3A3 ;
+  color: #fff ;
+  border: 1px solid #600 ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+}
+a {
+  color: #0096DD;
+  text-decoration: none;
+}
+div #content{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 80px;
+}
+
+ div #brefDetails{
+  width:35%;
+  float:left;
+  color: #000;
+}
+#brefDetails article{
+  margin-left:4px;
+}
+#brefDetails #profile-stats{
+  float: left;
+  width: 248px;
+  margin: 0px 0px 0px 47px;;
+  position: relative;
+}
+#brefDetails #profile-stats .profile-photo{
+  border-radius: 100%;
+  background-clip: padding-box;
+  border: 5px solid #FFF;
+  box-shadow: 0px 0px 2px rgba(0, 2, 2, 0.2);
+  width: 150px;
+  height: 150px;
+  display: block;
+  position: relative;
+  left: auto;
+}
+#brefDetails #profile-stats .profile-photo img{
+  border-radius: 100%;
+  background-clip: padding-box;
+  width: 100%;
+  height: auto;
+}
+#profile-stats .desc #membership{
+  position: relative;
+  width: auto;
+  border: 4px solid rgba(0, 0, 0, 0.04);
+  background: #fff;
+}
+#profile-stats .desc #membership .name form label{
+  display:inline;
+  font-size:16px;
+}
+#profile-stats .desc #membership .name h1{
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+
+ div #Details{
+  width:60%;
+  float:left;
+}
+div #Details legend{
+  color: #DD2121;
+  font: 2em "Trebuchet MS",Arial,sans-serif;
+}
+#Details .Education  .year{
+  width:20%;
+}
+#Details .Skills .tech{
+  width:40%;
+}
+#Details .Skills .stars{
+  font: 50px "Segoe UI";
+  letter-spacing: 1.5cm;
+}
+#Details .Language .tech{
+  width:40%;
+}
+#Details .Language .stars{
+  font: 50px "Segoe UI";
+  letter-spacing: 1.5cm;
+}
+#Details .Hobbies li{
+  display:inline-block;
+  width: 44%;
+}
+* th {
+  text-align: left;
+}
+div #content li:before {
+  font-family: 'FontAwesome';
+  content: '\f067';
+  margin:0 5px 0 -15px;
+}
+footer .pied{
+  height:15px;
+}
