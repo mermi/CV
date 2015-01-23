@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Curriculum Vitae</title>
+  <meta charset="UTF-8">
+  <link type="text/css" href="cv.css" rel="stylesheet"/>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script>
+  function initialize() {
+   var mapCanvas = document.getElementById('map-canvas');
+   var mapOptions = {
+    center: new google.maps.LatLng(36.809197, 10.100491),
+    zoom: 20,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+   }
+   var map = new google.maps.Map(mapCanvas, mapOptions)
+   var myMarker2 = new google.maps.Marker({
+    position: map,
+    map: map,
+    title:"Leaving here"
+   });
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+</head>
+<body>
+ <header id="masterHead">
+  <h1>Manel Rhaiem</h1>
+  <nav>
+   <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="Cv.html">CV</a></li>
+    <li><a href="portfolio.html">Portfolio</a> </li>
+    <li><a href="contact.html">Contact</a></li>
+   </ul>
+  </nav>
+ </header>
+ <div id="content" role="main">
+ <div class="contactMe">
+  <form action="/my-handling-form-page" method="post">
+   <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" />
+   </div>
+   <div>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" />
+   </div>
+   <div>
+    <label for="msg">Message:</label>
+    <textarea id="msg"></textarea>
+   </div>
+
+   <div class="button">
+    <button type="submit">Send your message</button>
+   </div>
+  </form>
+ </div>
+ <div class="findMe">
+  <div id="map-canvas"></div>
+</div>
+</div>
+<footer>
+ <p>Copyright (c) 2015</p>
+</footer>
+</body>
+</html>
