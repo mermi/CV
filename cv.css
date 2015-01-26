@@ -18,10 +18,13 @@ section,header,nav,footer{
 #masterHead{
  width: 100%;
  padding: 0px;
+
 }
 #masterHead h1{
- color:#373737;
+ color:#fff;
  text-align:center;
+ background-color: #1E1E1E;
+ margin-top: 0em;
 }
 #masterHead nav {
  float: right;
@@ -71,8 +74,46 @@ a {
  padding: 0px;
  margin-top: 80px;
  clear:both;
+ height: 100%;
 }
-
+#contentCV{
+ margin: 7% auto 3%;
+ margin-top: 7%;
+ margin-right-value: auto;
+ margin-bottom: 3%;
+ margin-left-value: auto;
+ margin-left-ltr-source: physical;
+ margin-left-rtl-source: physical;
+ margin-right-ltr-source: physical;
+ margin-right-rtl-source: physical;
+ box-shadow: 10px 10px 5px #000;
+ width: 80%;
+ position: relative;
+ background-color: #FFF;
+ direction: ltr;
+ overflow: hidden;
+ height: auto;
+ display: table;
+}
+#contentCV section{
+ width:100%;
+}
+#links {
+ font-family: sans-serif;
+ font-size: 16px;
+ text-align: center;
+}
+#link {
+ margin-left: 5px;
+ float: left;
+ list-style: outside none none;
+}
+#contentCV fieldset{
+ margin-top: 5px;
+ padding: 8px;
+ border-radius: 16px;
+ border-color: #666;
+}
 div #brefDetails{
  width:35%;
  float:left;
@@ -113,6 +154,7 @@ div #brefDetails{
 #profile-stats .desc #membership .name form label{
  display:inline;
  font-size:16px;
+
 }
 #profile-stats .desc #membership .name h1{
  font-size: 18px;
@@ -156,9 +198,7 @@ div #content li:before {
  content: '\f067';
  margin:0 5px 0 -15px;
 }
-.pied{
- height:15px;
-}
+
 div #content #row{
  display:inline-block;
 }
@@ -190,6 +230,9 @@ display:inline;
  display: inline-block;
  width: 90px;
  text-align: right;
+ color:#fff;
+ font-size:13px;
+ font-weight:bold;
 }
 #content .contactMe input, textarea {
  /* To make sure that all text fields have the same font settings
@@ -230,6 +273,11 @@ display:inline;
 }
 .explore-pjax-container {
  position: relative;
+}
+#content .contactMe span{
+ display:inline-block;
+ border-radius:4px;
+ width:50px;
 }
 .container {
  width: 980px;
@@ -349,6 +397,124 @@ display:inline;
  height: 250px;
 }
 footer{
- background:#999;
+ background-color: #1E1E1E;
+ color: #FFF;
  height: 4em;
+}
+footer p {
+ float:right;
+ font-weight: 400;
+ width:20%;
+}
+div .video{
+ width: 73%;
+ margin-top: 13em;
+ margin-left: 26em;
+}
+video{width:73%;}
+#PlayPuzzle {
+ background-color: #AA9D9D;
+ padding: 5px;
+ margin-top: 3em;
+ max-width: 800px;
+ width: 88%;
+ margin-left: 8em;
+ margin-bottom: 1em;
+}
+#PlayPuzzle h3{
+ font-weight: normal;
+ margin: 3px 0px;
+ text-align: center;
+ color:#EEEEEE;
+}
+hr{
+ border-width: 2px medium medium;
+ border-style: solid none none;
+ border-color: #F5F2F2 -moz-use-text-color -moz-use-text-color;
+ -moz-border-top-colors: none;
+ -moz-border-right-colors: none;
+ -moz-border-bottom-colors: none;
+ -moz-border-left-colors: none;
+ border-image: none;
+ height: 1px;
+}
+div .Puzzle{
+ display: inline-block;
+ margin: auto;
+ width: 95%;
+ vertical-align: top;
+}
+#PlayPuzzle .sortable {
+ border: 2px solid #A46;
+ list-style-type: none;
+ display: inline-block;
+ margin: 10px;
+ padding: 0px;
+ width: 400px;
+}
+#PlayPuzzle .sortable li {
+ background-size: 400% 400%;
+ border: medium none;
+ cursor: pointer;
+ margin: 0px;
+ padding: 0px;
+ float: left;
+ width: 100px;
+ height: 100px;
+}
+#PlayPuzzle #originalImageBox {
+ display: inline-block;
+ font-size: 1em;
+ margin: 10px;
+ vertical-align: top;
+ width: 250px;
+}
+.group:before,
+.group:after {
+ content: "";
+ display: table;
+}
+.group:after {
+ clear: both;
+}
+.group {
+ clear: both;
+ *zoom: 1;
+}
+section {
+ float: left;
+ margin: 0 1.5%;
+ width: 63%;
+}
+aside {
+ float: right;
+ margin: 0px 1.5%;
+ width: 19%;
+ margin-top: 8.5%;
+}
+.btn {
+ background: #3498db;
+ background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+ background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+ background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+ background-image: -o-linear-gradient(top, #3498db, #2980b9);
+ background-image: linear-gradient(to bottom, #3498db, #2980b9);
+ -webkit-border-radius: 28;
+ -moz-border-radius: 28;
+ border-radius: 28px;
+ font-family: Arial;
+ color: #ffffff;
+ font-size: 20px;
+ padding: 10px 20px 10px 20px;
+ text-decoration: none;
+}
+
+.btn:hover {
+ background: #3cb0fd;
+ background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+ background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+ background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+ background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+ background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+ text-decoration: none;
 }
